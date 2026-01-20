@@ -1,25 +1,32 @@
-# Hey, I'm Fred 👋
+## Fred E
 
-Founder of [Polaris Cloud](https://polariscloud.ai) and [Violet](https://github.com/useviolet) — building infrastructure for distributed AI.
+Building infrastructure for distributed AI training at scale.
 
-## What I'm Working On
+Founder at **[Polaris Cloud](https://polariscloud.ai)** and **[Violet](https://github.com/useviolet)**.
 
-**[Polaris Cloud](https://polariscloud.ai)** — Cloud AI platform for deploying and scaling models
+### Research & Engineering
 
-**[Violet](https://github.com/useviolet)** — Voice AI tools and infrastructure
+My work focuses on making large-scale model training accessible through decentralized compute:
 
-**[Distributed Training](https://github.com/bit-current/DistributedTraining)** — Decentralized ML training on Bittensor ([@bit-current](https://github.com/bit-current))
+- **Distributed Training Systems** — Building production infrastructure for training across heterogeneous, geographically distributed GPU clusters. Implementing communication-efficient parallelism strategies (SWARM, DiLoCo-style periodic averaging) that reduce bandwidth requirements while maintaining convergence.
 
-## Recent Projects
+- **Decentralized ML on Bittensor** — Core contributor at [@bit-current](https://github.com/bit-current), developing subnet infrastructure for collaborative model training. Our [DistributedTraining](https://github.com/bit-current/DistributedTraining) implementation enables fault-tolerant training across untrusted nodes.
 
-- **[voiceflow](https://github.com/wallscaler/voiceflow)** — Voice AI console with TTS deployment dashboard & GPU management
-- **[roam-tui](https://github.com/wallscaler/roam-tui)** — Terminal UI for org-roam notes
-- **[hivemindai](https://github.com/wallscaler/hivemindai)** — Distributed chatbot powered by Ollama & Bittensor
+- **Efficient Fine-tuning** — Working on [distributed DoRA training](https://github.com/bit-current/dtune) with periodic weight averaging for continual pretraining on decentralized networks.
 
-## Focus Areas
+### Selected Projects
 
-`distributed systems` · `machine learning infrastructure` · `bittensor` · `voice AI` · `developer tools`
+| Project | Description |
+|---------|-------------|
+| [DistributedTraining](https://github.com/bit-current/DistributedTraining) | Decentralized training infrastructure on Bittensor |
+| [dtune](https://github.com/bit-current/dtune) | Distributed DoRA fine-tuning with periodic weight averaging |
+| [swarm](https://github.com/bit-current/swarm) | SWARM Parallelism implementation for communication-efficient training |
+| [voiceflow](https://github.com/wallscaler/voiceflow) | TTS deployment platform with GPU orchestration |
+
+### Areas
+
+Distributed systems · Large-scale training · Communication-efficient ML · Decentralized compute · MLOps
 
 ---
 
-<sub>Building at the bleeding edge. Based in the US.</sub>
+Open to research collaborations. Reach me at [polariscloud.ai](https://polariscloud.ai)
